@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw's analytics dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <h4>Draw's analytic dashboard</h4> 
+        <i draggable="false" class="material-icons">mode_edit</i>
+    </header>
+    <main>
+        <div class="charts-part">
+            <button>+ New</button>
+            <div class="cover-div " style=" width: 100%; height:150px;"  >
+                <div id="img1" class="image" draggable="true">
+                    <img src="./img1.jfif" draggable="false">
+                    <p draggable="false">Active users</p>
+                </div>
+            </div>
+            <div class="cover-div " style=" width: 100%; height:150px;"  >
+                <div id="img2" class="image" draggable="true">
+                    <img  g src="./img3.jpg" draggable="false">
+                    <p draggable="false">Active users</p>
+                </div>
+            </div>
+            <div class="cover-div " style=" width: 100%; height:150px;"  >
+                <div id="img3" class="image" draggable="true">
+                    <img src="./img2.png" draggable="false">
+                    <p draggable="false">Active users</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="drag-part">
+                <h5>Drag a widget intoan open dashboard</h5>
+            <div class="drag-line1"> 
+                <div id="drag1" class ="drop-box box" >
+                    <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                </div>
+                <div class ="drop-box box" >
+                    <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                </div>
+            </div>
+    
+    
+    
+    
+            <div class="drag-line2">
+               
+                <div class="drag-line2-left">
+    
+                    <div class ="drop-box box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                    <div class ="drop-box box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                    <div class="box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                  
+                    <div class="box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                    <div class="box">
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                    <div class="box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                </div>
+                <div class="drag-line2-right">
+                    <div class="box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                    <div class="box" >
+                        <i draggable="false" class="fa fa-plus-circle" style="font-size:36px ; color: grey;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="finish">
+            <button>finish</button>
+        </div>
+    </div>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
